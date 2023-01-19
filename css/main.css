@@ -174,3 +174,12 @@ input{
     padding-bottom: 32px;
     padding-top: 15px;
 }
+.partners__logo{
+    padding: 35px 69px 35px 60px;
+    background-color: #fff;
+    border: 0.5px solid #EFEFEF;
+}
+.partners-wrapper{
+    margin: 0 -0.5px;
+}
+
