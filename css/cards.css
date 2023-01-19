@@ -1,0 +1,52 @@
+.catalog__card{
+    background-color: #fff;
+    text-align: center;
+}
+.card-wrapper{
+    float: left;
+    padding: 0 15px;
+}
+.card__img-holder{
+    padding: 25px 65px 20px ;
+}
+.card-title{
+    margin: 0  auto;
+    max-width: 195px;
+    height: 63px;
+    line-height: 20px;
+    padding: 10px 0 13px;
+}
+.card-price{
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    margin: 12px 0 ;
+}
+.card__btn{
+    margin: 20px 0 25px;
+    padding-bottom: 25px;
+}
+.card__btn-link{
+    background: #F13C6E;
+    border-radius: 30px;
+    padding: 9px 53px;
+    color: #fff;
+}
+.card__btn .card__btn-link:hover{
+    border: 2px solid #F13C6E;
+    color:#F13C6E ;
+    background-color: transparent;
+}
+.catalog{
+    background-color:  #EFEFEF;
+}
+.catalog-title{
+    padding-top: 80px;
+    font-size: 24px;
+}
+.row{
+    margin: 38px -15px 0;
+}
+
+

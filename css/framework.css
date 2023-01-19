@@ -1,0 +1,32 @@
+.clearfix:after{
+    content:'';
+    clear: both;
+    display: table;
+}
+.float-left{
+    float: left;  
+  }
+.float-right{
+      float: right;
+}
+.col-12{
+    width: 100%;
+}
+.col-8{
+    width: 66.66666%;
+}
+.col-6{
+    width:50% ;
+}
+.col-4{
+    width:33.33333% ;
+}
+.col-3{
+    width: 25%;
+}
+.col-2{
+    width: 16.6666666%;
+}
+.col-1{
+    width:8.333333% ;
+}
