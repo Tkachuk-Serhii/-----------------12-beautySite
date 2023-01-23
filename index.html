@@ -301,6 +301,9 @@
             </div>
         </section>
     </main>
+            <div class="ad">
+               <a href="#">This could be your ad</a> 
+            </div>    
     <footer class="footer">
             <div class="container">
                 <div class="footer-row clearfix">
@@ -359,16 +362,16 @@
                 </div>
                 <div class="clearfix">
                     <div class="footer__icons float-left">
-                        <div class="border"><i class="fa-brands fa-youtube"></i></div>
-                        <div class="border"><i class="fa-brands fa-facebook-f"></i></div>  
-                        <div class="border"><i class="fa-brands fa-instagram"></i></div>    
+                        <a href="#"><div class="border"><i class="fa-brands fa-youtube"></i></div></a>
+                        <a href="#"><div class="border"><i class="fa-brands fa-facebook-f"></i></div></a>  
+                        <a href="#"><div class="border"><i class="fa-brands fa-instagram"></i></div></a>    
                     </div>
                     <div class="footer__contacts float-right">
                         <div class="footer__contacts-item float-left">
                             <a class="phone-link" href="tel:+12131234567">1 (213) 123-45-67</a>
                         </div>
                         <div class="footer__contacts-item float-right ">
-                            <button id="modal-btn" class="callback" >Callback</button>
+                            <button id="modal2-btn" class="callback" >Callback</button>
                         </div>
                     </div>
                 </div>    
@@ -396,6 +399,9 @@
 <script>
     $(document).ready(function(){
         $('#modal-btn').on('click',function(){
+        $('#modal').addClass('active');
+        })
+        $('#modal2-btn').on('click',function(){
         $('#modal').addClass('active');
         })
         $('#close').on('click',function(){

@@ -237,5 +237,19 @@ input{
     background-color:#F13C6E ;
     color: #fff;   
 }
+.ad a{
+    color: #fff;
+    background-color: rgb(200, 76, 204);
+    position: fixed;
+    right: -179px;
+    bottom: 179px;
+    border: 5px solid #ffffff;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 30px;
+    display: block;
+    letter-spacing: 5px;
+    transform: rotate(90deg);
+}
 
 
