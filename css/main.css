@@ -221,6 +221,7 @@ input{
     padding: 40px 0;
 }
 .border{
+    position: relative;
     border: 1px solid #F13C6E;
     border-radius: 100%;
     padding: 11px ;
@@ -232,6 +233,11 @@ input{
     color: #F13C6E;
     font-weight: 700;
     font-size: 16px;
+    transform: scale(1);
+    transition: all ease-in-out 0.3s;
+}
+.border:hover{
+    transform: scale(1.1);
 }
 .footer__contacts-item .callback:hover{
     background-color:#F13C6E ;
@@ -241,12 +247,12 @@ input{
     color: #fff;
     background-color: rgb(200, 76, 204);
     position: fixed;
-    right: -179px;
-    bottom: 179px;
+    right: -67px;
+    bottom: 75px;
     border: 5px solid #ffffff;
     font-weight: 700;
-    font-size: 30px;
-    padding: 30px;
+    font-size: 16px;
+    padding: 5px;
     display: block;
     letter-spacing: 5px;
     transform: rotate(90deg);
