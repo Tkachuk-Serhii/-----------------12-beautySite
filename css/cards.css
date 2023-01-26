@@ -12,7 +12,8 @@
 .card-title{
     margin: 0  auto;
     max-width: 195px;
-    height: 63px;
+    max-height: 63px;
+    overflow: hidden;
     line-height: 20px;
     padding: 10px 0 13px;
 }
@@ -45,15 +46,11 @@
     padding-top: 80px;
     font-size: 24px;
 }
-.catalog-title{
-    padding-top: 80px;
-    font-size: 24px;
-}
 .row{
     margin: 38px -15px 0;
 }
 .viewed-offers{
-    margin-top: 555px;
+    margin-top: 90px;
     font-size: 24px;
 }
 
